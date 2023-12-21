@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Sidebar {
+    display: flex;
+    justify-content: center;
+    width: 260px;
+    height: 1466px;
+    padding: 12px 36px 12px 32px;
+    background-color:  #F9FAFB;
+    gap: 29px;
+    flex-shrink: 0;
+}
+
+.Logo {
+    width: 40px;
+    height: 40px;
+}
+
+.fa {
+    color: grey;
+    width: 20px;
+    height: 20px;
+}
+
+.homeyellow {
+    width: 16.667px;
+    height: 15.648px;
+    flex-shrink: 0;  
+    color: #FFC831;
+}
+
+
+
+.iconbar {
+    display: flex;
+    align-items: center;
+    gap: 68px;
+    width: 196px;
+    height: 40px;
+}
+
+.frame1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    height: 260px;
+    width: 524px;
+}
+
+.home {
+    display: flex;
+    width: 260px;
+    padding: 12px 36px 12px 32px;
+    gap: 16px;
+    flex-shrink: 0;
+    margin-top: 44px;
+    align-items: center;
+    color:  #637381;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.discover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.discoverword {
+    color:  #212B36;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+}
+
+.discoverone {
+    display: flex;
+    width: 260px;
+    padding: 12px 36px 12px 32px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0px 22px 22px 0px;
+    background: var(--Gray-200, #EFF2F5);
+}
+
+.discoverfirst {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+}
+
+.triangle {
+    position: absolute;
+    left: -3px;
+    top: 185px;
+    color: #FFC831;
+    width: 10px;
+    height: 44px;
+    flex-shrink: 0;
+}
+
+.downdrop {
+    display: flex;
+    flex-direction: column;
+    width: 219px;
+    padding: 12px 36px 12px 24px;
+    align-items: start;
+    justify-content: center;
+    gap: 29px;
+    margin-left: 35px;
+    border-left: 1px solid var(--Gray-500, #919EAB);
+    /* display: none; */
+}
+
+.nodropDown {
+    display: none;
+}
+
+.arrow {
+    width: 14px;
+   height: 14px;
+   flex-shrink: 0;
+   color: #C4CDD5;
+}
+
+.pdown1 {
+    color: #FFC831;
+}
+
+.pdown {
+    color:  #637381;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.popular, .authors, .feed, .contact{
+    display: flex;
+    width: 260px;
+    padding: 12px 36px 12px 32px;
+    align-items: center;
+    gap: 16px;
+    flex-shrink: 0;
+}
+
+.box, .people, .feedly, .contactly, .helply{
+    width: 20px;
+    height: 20px;
+    color: #919EAB;
+}
+
+.popularword, .authorsword, .feedword, .contactword, .helpword{
+    color:  #637381;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.setting {
+    display: flex;
+    width: 260px;
+    padding: 12px 36px 12px 32px;
+    align-items: center;
+    gap: 16px;
+    flex-shrink: 0;
+    margin-top: 726px;
+}
+
+.settingly {
+    width: 20px;
+    height: 20px;
+    color: #919EAB;
+}
+
+.settingword {
+    color:  #637381;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.help {
+    display: flex;
+    width: 260px;
+    padding: 12px 36px 12px 32px;
+    align-items: center;
+    gap: 16px;
+    flex-shrink: 0;
+    margin-bottom: 16px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    width: 260px;
+    height: 1px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.footerone {
+    display: flex;
+    width: 169px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer, p {
+    color:#919EAB;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+}

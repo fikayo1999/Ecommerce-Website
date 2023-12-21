@@ -1,0 +1,39 @@
+.category {
+    display: flex;
+    width: 1124px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.allone {
+    border-radius: 20px;
+    padding: 6px 12px;
+    background-color: black;
+    color:  #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bags, .food, .books, .clothes, .grocery, .furniture, .baby, .station, .beauty {
+        border-radius: 20px;
+        background:  #F3F5F7;
+        padding: 6px 12px;
+        color:  #637381;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+}
+
+.greater {
+    border-radius: 100px;
+    background:  #F3F5F7;
+    width: 14px;
+    height: 14px;
+    color: #919EAB;
+    padding: 6px 12px;
+}

@@ -1,0 +1,80 @@
+.nav {
+    display: flex;
+    width: 1124px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    width: 280px;
+    padding: 10px 24px;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 200px;
+    background:  #F3F5F7;
+}
+
+.searchone {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.searchicon {
+    width: 24px;
+    height: 24px;
+    color:#919EAB;
+}
+
+.searchword{
+    color:  #212B36;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    color:#919EAB;
+}
+
+.microphone {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    color:#919EAB;
+}
+
+.image1 {
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 30px;
+}
+
+.moon, .bell, .shopping {
+    width: 24px;
+    height: 24px;
+    color:#919EAB;
+}
+
+.seller {
+    display: flex;
+    padding: 10px 24px;
+    align-items: flex-start;
+    gap: 10px;
+    color:  #15141B;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+    border-radius: 100px;
+    background: #FFC831;
+}
